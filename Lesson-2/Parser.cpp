@@ -1,5 +1,20 @@
-//
-// Created by zolin on 18.09.2022.
-//
-
 #include "Parser.h"
+void Parser::Parse() {
+    std::ifstream input;
+    input.exceptions(std::ifstream::badbit | std::ifstream::failbit);
+    try {
+        input.open(filename);
+        std::string teg;
+        std::string buffer;
+        input >> teg;
+        buffer = teg;
+        while (teg != "/" + buffer) {
+            vec.push_back(teg);
+            input >> teg;
+        }
+        vec.push_back(teg);
+    }
+    catch (const std::exception& e) {
+        std::cout << e.what() << std::endl;
+    }
+}

@@ -1,7 +1,6 @@
-#include "Tree.h"
+#include "Parser.h"
 
 int main() {
-    Tree tree;
-    tree.Parser();
+    std::cout << "Hello, World!" << std::endl;
     return 0;
 }

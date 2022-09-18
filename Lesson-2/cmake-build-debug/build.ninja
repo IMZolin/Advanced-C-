@@ -61,6 +61,12 @@ build CMakeFiles/Lesson_2.dir/Parser.cpp.obj: CXX_COMPILER__Lesson_2_Debug C$:/U
   OBJECT_DIR = CMakeFiles\Lesson_2.dir
   OBJECT_FILE_DIR = CMakeFiles\Lesson_2.dir
 
+build CMakeFiles/Lesson_2.dir/Tree.cpp.obj: CXX_COMPILER__Lesson_2_Debug C$:/Users/zolin/University/Science_programming/Lessons/Lesson-2/Tree.cpp || cmake_object_order_depends_target_Lesson_2
+  DEP_FILE = CMakeFiles\Lesson_2.dir\Tree.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Lesson_2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Lesson_2.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Lesson_2
@@ -69,7 +75,7 @@ build CMakeFiles/Lesson_2.dir/Parser.cpp.obj: CXX_COMPILER__Lesson_2_Debug C$:/U
 #############################################
 # Link the executable Lesson_2.exe
 
-build Lesson_2.exe: CXX_EXECUTABLE_LINKER__Lesson_2_Debug CMakeFiles/Lesson_2.dir/main.cpp.obj CMakeFiles/Lesson_2.dir/Parser.cpp.obj
+build Lesson_2.exe: CXX_EXECUTABLE_LINKER__Lesson_2_Debug CMakeFiles/Lesson_2.dir/main.cpp.obj CMakeFiles/Lesson_2.dir/Parser.cpp.obj CMakeFiles/Lesson_2.dir/Tree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Lesson_2.dir

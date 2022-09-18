@@ -10,7 +10,8 @@ public:
     Parser(std::string filename_){filename = filename_;}
     ~Parser(){vec.clear();}
     void Parse();
-//    std::vector<std::string> getVec(){return vec;}
+    void printVec();
+    std::vector<std::string> getVec(){return vec;}
 private:
     std::string filename;
     std::vector<std::string> vec;

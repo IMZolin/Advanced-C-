@@ -18,3 +18,9 @@ void Parser::Parse() {
         std::cout << e.what() << std::endl;
     }
 }
+void Parser::printVec() {
+    for(auto item:this->vec)
+    {
+        std::cout<< item<<std::endl;
+    }
+}

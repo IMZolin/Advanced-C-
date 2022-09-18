@@ -25,7 +25,7 @@ class Tree {
 public:
     Tree(std::string value);
     ~Tree();
-//    void makeTree(std::vector<std::string> inp_vec);
+    void makeTree(std::vector<std::string> inp_vec);
 //    Node* Find(std::string const& element_name, Node* node);
 //    void shortestPath(std::string const& s1, std::string const& s2);
     void Print(Node* node);

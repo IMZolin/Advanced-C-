@@ -5,7 +5,7 @@ int main() {
     Parser parser(filename);
     Tree tree ("Root");
     parser.Parse();
-//    tree.Print(tree.getRoot());
-    std::cout << "Hello, World!" << std::endl;
+    tree.Print(tree.getRoot());
+//    std::cout << "Hello, World!" << std::endl;
     return 0;
 }

@@ -8,23 +8,23 @@ Tree::~Tree()
 {
     delete root;
 }
-//void Tree::makeTree(std::vector<std::string> inp_vec) {
-//    root->getKey() = inp_vec[0];
-//    inp_vec.erase(inp_vec.begin());  //  Too much weight of operation ?
-//    Node* tmp = root;
-//    for(auto item: inp_vec) {
-//        if(item[0] != 47) {
-//            Node* new_child = new Node;
-//            new_child->getKey() = item;
-//            new_child->setParent(tmp);
-//            tmp->getChildren().push_back(new_child);
-//            tmp = new_child;
-//        }
-//        else {
-//            tmp = tmp->getParent();
-//        }
-//    }
-//}
+void Tree::makeTree(std::vector<std::string> inp_vec) {
+    root->getKey() = inp_vec[0];
+    inp_vec.erase(inp_vec.begin());  //  Too much weight of operation ?
+    Node* tmp = root;
+    for(auto item: inp_vec) {
+        if(item[0] != 47) {
+            Node* new_child = new Node;
+            new_child->getKey() = item;
+            new_child->setParent(tmp);
+            tmp->getChildren().push_back(new_child);
+            tmp = new_child;
+        }
+        else {
+            tmp = tmp->getParent();
+        }
+    }
+}
 //Node* Tree::Find(const std::string &element_name, Node *node) {
 //    if(root->getKey() == element_name) {return root;}
 //    static Node* buffer = root;
@@ -94,8 +94,13 @@ void Tree::Print(Node* node) {
         {
             node = item;
             node->Print();
+//            std::cout << node->getKey() << std::endl;
             Print(node);
         }
+    }
+    if(node->getChildren().empty() && node!= nullptr)
+    {
+        std::cout << node->getKey() << std::endl;
     }
 }
 void Tree::Delete(Node* node) {

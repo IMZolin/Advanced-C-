@@ -6,6 +6,11 @@
   <component name="CMakeReloadState">
     <option name="reloaded" value="true" />
   </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="Lesson_2" targetName="Lesson_2" />
+    </generated>
+  </component>
   <component name="CMakeSettings">
     <configurations>
       <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
@@ -13,15 +18,58 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ee27dbe-bb62-45a9-9630-ea4f0ff82497" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Parser.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Parser.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tree.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tree.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson-3/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson-3/.idea/Lesson-3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson-3/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson-3/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson-3/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson-3/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson-3/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson-3/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson-3/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson-3/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson-3/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson-3/cmake-build-debug/.cmake/api/v1/reply/cache-v2-4559f54499d42923b4a0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson-3/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-488e93ce95afc2d8dfb8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson-3/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-b62353e6a767edb52656.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson-3/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-7eb879c766722ee6151e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson-3/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-833432899ff0363a08b0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson-3/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson-3/cmake-build-debug/.cmake/api/v1/reply/index-2022-09-19T05-21-19-0489.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson-3/cmake-build-debug/.cmake/api/v1/reply/index-2022-09-19T05-23-05-0991.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson-3/cmake-build-debug/.cmake/api/v1/reply/target-Lesson_3-Debug-85f3214599992d3daa70.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson-3/cmake-build-debug/.cmake/api/v1/reply/target-Lesson_3-Debug-bc70bce787643f2650ac.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson-3/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-a2cd6e1c21819857cbc5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson-3/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson-3/cmake-build-debug/CMakeFiles/3.23.2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson-3/cmake-build-debug/CMakeFiles/3.23.2/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson-3/cmake-build-debug/CMakeFiles/3.23.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson-3/cmake-build-debug/CMakeFiles/3.23.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson-3/cmake-build-debug/CMakeFiles/3.23.2/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson-3/cmake-build-debug/CMakeFiles/3.23.2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson-3/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson-3/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson-3/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson-3/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdCXX/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson-3/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson-3/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson-3/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson-3/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson-3/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson-3/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson-3/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson-3/cmake-build-debug/build.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson-3/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson-3/example.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson-3/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lessons-2-2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lessons-2-2/.idea/Lessons-2-2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lessons-2-2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lessons-2-2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lessons-2-2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lessons-2-2/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lessons-2-2/example.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lessons-2-2/main.cpp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +79,12 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectApplicationVersion">
     <option name="ide" value="CLion" />
@@ -41,12 +93,18 @@
   </component>
   <component name="ProjectId" id="2FGt5xeBLLZdnAL4wfacJTWjkST" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.cidr.known.project.marker": "true",
     "WebServerToolWindowFactoryState": "false",
     "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true"
+    "cidr.known.project.marker": "true",
+    "last_opened_file_path": "C:/Users/zolin/University/Science_programming/Lessons",
+    "nodejs_package_manager_path": "npm"
   }
 }]]></component>
   <component name="RunManager">
@@ -69,7 +127,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664130069027</updated>
-      <workItem from="1664130070863" duration="2000" />
+      <workItem from="1664130070863" duration="234000" />
     </task>
     <servers />
   </component>

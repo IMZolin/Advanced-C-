@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.23)
-project(Lesson_2)
+project(Lessons_2_2)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Lesson_2 main.cpp)
+add_executable(Lessons_2_2 main.cpp)

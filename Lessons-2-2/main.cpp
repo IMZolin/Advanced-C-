@@ -28,33 +28,8 @@ public:
     Node* head;
 
 public:
-    //Tree() {head->name = "Root", head->parent = nullptr};
     Tree(std::string RootName) {head = new Node; head->parent = nullptr; head->name = RootName;}
     ~Tree() { DeleteTree(head); delete head; }
-
-    Tree(Tree const& other) {
-        head = new Node;
-        head->name = other.head->name;
-        AddElements(other.head, head);
-    }
-
-    Tree& operator = (Tree const& lhs) {
-        head = new Node;
-        head->name = lhs.head->name;
-        AddElements(lhs.head, head);
-        return *this;
-    }
-
-    Tree(Tree&& rhs) {
-        head = rhs.head;
-        rhs.head = nullptr;
-    }
-
-    Tree& operator = (Tree && rhs) {
-        DeleteTree(head);
-        head = rhs.head;
-        rhs.head = nullptr;
-    }
 
     void MakeTree(std::vector<std::string> input_vector) {
         head->name = input_vector[0];
@@ -156,44 +131,15 @@ public:
         }
     }
 
-    void AddElements(Node* const& other, Node* node) {
-        if(!other->child.empty()) {
-            int i = 0;
-            for (auto item: other->child) {
-                Node* new_node = new Node;
-                new_node->name = item->name;
-                new_node->parent = node;
-                node->child.push_back(new_node);
-                AddElements(other->child[i], new_node);
-                i++;
-            }
-        }
-    }
-
     void DeleteTree(Node* tmp) {
-        if(tmp != nullptr && !tmp->child.empty()) {
-            Node* buffer = tmp;
+        if(!tmp->child.empty()) {
             for(auto item: tmp->child) {  //  хитрая строка, на которую не влияет static
                 tmp = item;
                 DeleteTree(tmp);
                 delete item;
             }
-            buffer->child.clear();
         }
     }
-
-    void PrintTree_2(Node* const& node) {
-        //std::cout << node->name << std::endl;
-        for(auto items: node->child) {
-            std::cout << items->name << " ";
-        }
-        std::cout << std::endl;
-        for(auto items: node->child) {
-            PrintTree_2(items);
-            //std::cout << std::endl;
-        }
-    }
-
 };
 
 class Source {
@@ -226,8 +172,21 @@ public:
     }
 };
 
+void fun(int& x) {
+    x++;
+}
+
+int& fun2(int& x) {
+    return x;
+}
+
+template <typename T>
+void print (const T& x) {
+    std::cout << &x;
+}
+
 int main() {
-    std::string filename = "C:\\Users\\zolin\\University\\Science_programming\\Lessons\\Lesson-2\\file.txt";
+    std::string filename = "C:\\Users\\Le\\Desktop\\AppMath\\CPP\\2_Lesson\\file.txt";
 
     Tree t1("Root");
     Source s1(filename);
@@ -236,18 +195,18 @@ int main() {
     t1.MakeTree(s1.vec);
     t1.PrintTree(t1.head);
     std::cout << std::endl;
-    t1.FastTrack("Lvl_1_2", "Lvl_2_2");
+    t1.FastTrack("Lvl_1_2_3", "Lvl_2_1");
 
     std::cout << std::endl;
-    std::cout << std::endl;
+    int x = 5;
+    int &rx = x;
 
-    Tree t2 = t1;
-    Tree t3(std::move(t2));
-    t3.PrintTree(t3.head);
+    fun2(x) = 21;
+    std::cout << x;
 
-    Tree t4("Root");
-    t4 = std::move(t3);
-    t4.PrintTree(t4.head);
+    print <int> (45);
+
+
 
     return 0;
 }

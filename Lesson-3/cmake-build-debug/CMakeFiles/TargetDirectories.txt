@@ -1,0 +1,3 @@
+C:/Users/zolin/University/Science_programming/Lessons/Lesson-3/cmake-build-debug/CMakeFiles/Lesson_3.dir
+C:/Users/zolin/University/Science_programming/Lessons/Lesson-3/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/zolin/University/Science_programming/Lessons/Lesson-3/cmake-build-debug/CMakeFiles/rebuild_cache.dir

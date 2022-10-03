@@ -1,0 +1,1 @@
+### Stack with the ability to add and remove multiple elements (CoolStack)

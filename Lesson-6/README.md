@@ -1,0 +1,1 @@
+### A class that allows you to apply operations on a string by calling them from the stack, including operations on the stack
